@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+*.egg
+
+# UV
+uv.lock
+
+# Environment
+.env
+
+# Data
+data/processed/
+
+# Downloaded models
+models/
+
+# Outputs / model weights
+outputs/
+*.bin
+*.safetensors
+*.gguf
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / tensorboard
+runs/
+logs/
+*.log
+
+# Internal notes
+instruction.txt

@@ -1,0 +1,257 @@
+[
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I've been looking at this jacket for two months. The price just dropped to $89 from $149 so I'm ordering it right now. Been shopping here since 2019.",
+    "response": "browsing, purchase_ready, price_sensitive, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "The sneakers I received are completely different from the picture on the website. The color is wrong and the stitching is falling apart after one day. I want a full refund immediately.",
+    "response": "complaint, return_intent"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Just added $430 worth of electronics to my cart — headphones, a smartwatch, and a portable charger. Checking out now.",
+    "response": "purchase_ready, impulse_buyer, high_value"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Hi, I placed an order three days ago but I still haven't received a tracking number. Can someone help me figure out what's going on?",
+    "response": "support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I used to order here every week. Lately delivery takes two weeks and half my orders arrive damaged. Starting to look at other stores.",
+    "response": "complaint, at_risk_churn, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Just scrolling through the new arrivals section. Nothing is really catching my eye today.",
+    "response": "browsing"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Do you price match? I found the same blender on a competitor site for $15 cheaper.",
+    "response": "price_sensitive, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I'm a Prime-tier member and have spent over $3,000 this year. I expect priority support when something goes wrong with my order.",
+    "response": "loyal_customer, high_value, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Saw this handbag on your Instagram ad five minutes ago and immediately bought it. Didn't even check the dimensions.",
+    "response": "impulse_buyer, purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "The dress doesn't fit at all — the sizing guide was completely misleading. I want to return it and get the right size.",
+    "response": "complaint, return_intent, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Comparing prices across five different sellers for the same laptop model. Waiting for a flash sale.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I have 1,200 loyalty points expiring next week. I'll use them to buy a gift set for my mom.",
+    "response": "purchase_ready, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Website keeps crashing on the payment page. I've tried three times and my card has been charged twice with no order confirmation.",
+    "response": "complaint, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Added 12 items to my wishlist over the last month. Planning to buy a few during the upcoming sale.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Ordered the coffee machine, stand mixer, and toaster set as a bundle — $680 total. Fast checkout using saved payment.",
+    "response": "purchase_ready, high_value, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "This is the fourth time my package has been marked delivered but wasn't actually at my door. Extremely frustrating. Considering cancelling my membership.",
+    "response": "complaint, at_risk_churn"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "How do I apply a coupon code at checkout? I have a 20% off code but can't find where to enter it.",
+    "response": "support_seeking, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Browsing the home decor section. Love the aesthetic of this store. Might buy a few things if the right items pop up.",
+    "response": "browsing"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I specifically bought this as a birthday gift for tomorrow and the delivery estimate said today. It hasn't arrived. This has ruined my plans.",
+    "response": "complaint, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I only buy when there's at least 30% off. Currently have three items in cart waiting for a promotion.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Just bought two more items. My sixth order this month — your recommendations keep getting better.",
+    "response": "purchase_ready, loyal_customer, impulse_buyer, high_value"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "The headphones arrived working fine but the box was completely crushed. I don't care about the box but wanted to report it.",
+    "response": "complaint"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I want to return the shoes. They're fine quality but just not my style. Can I exchange for store credit?",
+    "response": "return_intent, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Discovered your store via a TikTok and went straight to checkout. Bought the viral candle set without reading reviews.",
+    "response": "impulse_buyer, purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "My account shows I ordered a medium but the confirmation email says large. I need this corrected before it ships.",
+    "response": "support_seeking, complaint"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Reading reviews for the standing desk. Want to make sure it's worth the $350 before I commit.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Been a customer for 7 years, spent over $10,000 on your platform. This is the first time I've had an issue. My package seems lost.",
+    "response": "loyal_customer, high_value, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Unsubscribing from emails. Too many promotions and I haven't ordered in months. The quality isn't what it used to be.",
+    "response": "at_risk_churn, complaint"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Using the 'try before you buy' feature to order three dresses. Will keep the one that fits best and return the others.",
+    "response": "purchase_ready, return_intent"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Flash sale ends in 20 minutes — just bought four items I had in my wishlist before the discount disappeared.",
+    "response": "purchase_ready, price_sensitive, impulse_buyer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Is the leather wallet available in brown? The product page only shows black.",
+    "response": "browsing, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Refund for my last return still hasn't appeared after 14 business days. I have the return receipt. This is unacceptable.",
+    "response": "complaint, support_seeking, at_risk_churn"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Just reordering the same protein powder I buy every month. Quick reorder from my history.",
+    "response": "purchase_ready, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Saving several items for later. Want to compare them to options on other platforms before deciding.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Ordered a $1,200 camera kit — body, two lenses, and a bag. I always buy my photography gear from you.",
+    "response": "purchase_ready, high_value, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "The skincare set was listed as cruelty-free but the packaging clearly says 'tested on animals'. Extremely misleading.",
+    "response": "complaint, return_intent"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "What's the estimated delivery date if I order the sofa today? I need it before December 20th.",
+    "response": "support_seeking, purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I set a price alert for this gaming chair six weeks ago. It just hit $199 so I'm buying it before the price goes back up.",
+    "response": "price_sensitive, purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Haven't been able to log into my account for a week. Tried resetting the password but keep getting an error.",
+    "response": "support_seeking, at_risk_churn"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Just exploring the new summer collection. Not planning to buy anything today but bookmarking a few pieces.",
+    "response": "browsing"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Bought three of these as gifts last holiday season and everyone loved them. Ordering five this year — two for family and three to give as work presents.",
+    "response": "purchase_ready, loyal_customer, high_value"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "The item arrived broken. I've contacted support three times in two weeks and got no response. I'm going to dispute the charge.",
+    "response": "complaint, return_intent, at_risk_churn"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Can I use multiple discount codes on the same order? I have a referral code and a seasonal coupon.",
+    "response": "price_sensitive, support_seeking"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Midnight shopping again. Added a silk robe, two candles, and a diffuser to cart. No regrets.",
+    "response": "impulse_buyer, purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I'm returning the monitor. I found the exact model at a physical store for $80 less. Why is your price so high?",
+    "response": "return_intent, price_sensitive, complaint"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Looking for a mattress in the $500–700 range. Reading every review on all the options you carry.",
+    "response": "browsing, price_sensitive"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Subscribed to auto-delivery for my pet food and cleaning supplies. Makes life so much easier.",
+    "response": "purchase_ready, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "I hit VIP status last month. Now I want to use my free shipping benefit on a big order — adding a TV and a soundbar.",
+    "response": "purchase_ready, loyal_customer, high_value"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Received the wrong item entirely. Ordered a blue backpack and got a red wallet. Very disappointed, first bad experience in 4 years of shopping here.",
+    "response": "complaint, return_intent, support_seeking, loyal_customer"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Signed up just to buy one thing for a friend. Don't plan to shop here regularly.",
+    "response": "purchase_ready"
+  },
+  {
+    "instruction": "You are an e-commerce behavior analyst. Classify the following customer interaction by assigning all applicable labels from: [browsing, purchase_ready, price_sensitive, loyal_customer, complaint, return_intent, support_seeking, impulse_buyer, at_risk_churn, high_value]. List only the applicable labels, comma-separated.",
+    "input": "Haven't ordered in six months. Your prices have crept up and competitors are offering better deals. Checking if anything's changed.",
+    "response": "at_risk_churn, price_sensitive, browsing"
+  }
+]

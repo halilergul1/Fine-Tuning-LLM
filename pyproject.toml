@@ -1,0 +1,49 @@
+[project]
+name = "phi3-sft"
+version = "0.1.0"
+description = "Lightweight SFT fine-tuning of Phi-3-mini with vLLM inference"
+requires-python = ">=3.11"
+dependencies = [
+    "huggingface-hub>=0.23",
+    "transformers>=4.43",
+    "datasets>=2.20",
+    "peft>=0.11",
+    "accelerate>=0.31",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+train = [
+    "unsloth[colab-new]>=2024.9",
+    "trl>=0.9",
+    "bitsandbytes>=0.43",
+    "torch>=2.3",
+    "tensorboard>=2.17",
+]
+inference = [
+    "vllm>=0.5; sys_platform == 'linux'",   # vLLM requires Linux + CUDA; use --engine transformers on macOS
+    "torch>=2.3",
+]
+dev = [
+    "pytest>=8",
+    "ruff>=0.5",
+]
+
+[tool.uv.sources]
+# unsloth installs from PyPI but needs CUDA; see README for platform notes
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/phi3_sft"]
+
+[project.scripts]
+phi3-prepare = "scripts.prepare_data:main"
+phi3-download = "scripts.download_model:main"
+phi3-train = "scripts.train:main"
+phi3-infer = "scripts.inference:main"
+
+[tool.ruff]
+line-length = 100
