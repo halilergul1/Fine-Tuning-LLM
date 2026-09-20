@@ -1,3 +1,5 @@
+
+
 # Fine-Tuning an Open-Source LLM
 
 A lightweight Python package for supervised fine-tuning (SFT) of open-source language models on custom datasets, with fast inference via vLLM.
@@ -66,7 +68,7 @@ Training with Unsloth and 4-bit quantization requires Linux + CUDA. On macOS, pa
 
 ## Data format
 
-Your dataset should be a JSON array:
+Your dataset should be a JSON array or a JSONL file (one JSON object per line):
 
 ```json
 [
